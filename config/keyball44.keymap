@@ -95,7 +95,7 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESCAPE      &kp Q           &kp W          &kp E        &kp R        &mt LC(T) T                 &kp Y            &kp U  &mt LG(I) I  &kp O        &kp P      &kp BACKSPACE
+&kp ESCAPE      &kp Q           &kp W          &mt LG(E) E  &kp R        &mt LC(T) T                 &kp Y            &kp U  &mt LG(I) I  &kp O        &kp P      &kp BACKSPACE
 &kp LEFT_SHIFT  &mt LC(A) A     &mt (S) LC(S)  &kp D        &mt LC(F) F  &mt LC(G) G                 &kp H            &kp J  &kp K        &mt LG(L) L  &kp SEMI   &kp SQT
 &kp LCTRL       &mt LC(Z) Z     &mt LC(X) X    &mt LC(C) C  &mt LC(V) V  &kp B                       &mt RA(N) N      &kp M  &kp COMMA    &kp DOT      &kp SLASH  &lt 3 RIGHT_ALT
 &kp LGUI        &lt 2 LEFT_ALT  &lt 6 ESCAPE   &lt 4 SPACE  &lt 5 TAB                     &kp ENTER  &lt 1 BACKSPACE                                              &kp DELETE
