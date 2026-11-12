@@ -16,15 +16,16 @@
 &nice_view_spi { cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>; };
 
 &lt {
-    tapping-term-ms = <240>;
-    flavor = "balanced";
+    tapping-term-ms = <300>;
+    flavor = "tap-preferred";
     quick-tap-ms = <150>;
 };
 
 &mt {
-    tapping-term-ms = <200>;
+    tapping-term-ms = <300>;
     flavor = "tap-preferred";
     quick-tap-ms = <150>;
+    require-prior-idle-ms: <150>;
 };
 
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
